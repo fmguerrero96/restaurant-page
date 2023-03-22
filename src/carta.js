@@ -58,3 +58,7 @@ function renderCarta() {
      </footer>
     ` 
  };
+
+ renderCarta()
+
+ export default carta;
