@@ -160,6 +160,7 @@ time, mark, audio, video {
   .dish-description{
     font-size: 1rem;
     font-weight: 100;
+    text-align: center;
   }
 
   .carta-hr{
