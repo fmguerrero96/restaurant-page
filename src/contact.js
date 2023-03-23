@@ -6,7 +6,7 @@ function renderContact(){
     <nav>
         <ul>
             <li>Home</li>
-            <li>Menu</li>
+            <li>Carta</li>
             <li>Contact</li>
         </ul>
     </nav>

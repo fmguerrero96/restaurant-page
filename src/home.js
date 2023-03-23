@@ -5,20 +5,20 @@ function renderHome() {
    home.innerHTML = `
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Menu</li>
-            <li>Contact</li>
+            <li class="tab home">Home</li>
+            <li class="tab menu">Carta</li>
+            <li class="tab contact">Contact</li>
         </ul>
     </nav>
     <main>
-        <h1>Engañoso</h1>
-        <p>Restaurante</p>
-        <hr>
-        <p>Nuestra pagina web es falsa, al igual que nuestros productos</p>
-        <button>Carta</button>
+        <h1 class="home-title">Engañoso</h1>
+        <p class="home-rest">Restaurante</p>
+        <hr class="home-hr">
+        <p class="lema">Nuestra pagina web es falsa, al igual que nuestros productos</p>
+        <button class="menu-btn">Carta</button>
     </main>
     <footer>
-        <p>Created by Misael Guerrero</p>
+        <p class="credit">Created by Misael Guerrero</p>
     </footer>
    ` 
 };
