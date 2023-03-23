@@ -4,11 +4,11 @@ function renderCarta() {
     carta.className = 'carta';
     carta.innerHTML = `
      <nav>
-     <ul>
-        <li class="tab home">Home</li>
-        <li class="tab menu">Carta</li>
-        <li class="tab contact">Contact</li>
-    </ul>
+        <ul>
+            <li class="tab home">Home</li>
+            <li class="tab menu">Carta</li>
+            <li class="tab contact">Contact</li>
+        </ul>
      </nav>
      <main>
         <h1 class="carta-title">Engañoso</h1>
