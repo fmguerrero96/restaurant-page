@@ -10,7 +10,7 @@ function renderHome() {
             <li class="tab-contact">Contact</li>
         </ul>
     </nav>
-    <main>
+    <main class="home-main">
         <h1 class="home-title">Engañoso</h1>
         <p class="home-rest">Restaurante</p>
         <hr class="home-hr">
