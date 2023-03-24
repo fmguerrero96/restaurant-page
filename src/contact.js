@@ -5,28 +5,28 @@ function renderContact(){
     contact.innerHTML = `
     <nav>
         <ul>
-            <li class="tab-home">Home</li>
+            <li class="tab-home">Inicio</li>
             <li class="tab-menu">Carta</li>
-            <li class="tab-contact">Contact</li>
+            <li class="tab-contact">Contactanos</li>
         </ul>
     </nav>
     <main class="contact-main">
         <h1 class="contact-title">Engañoso</h1>
-        <p class="contact-us">Contact Us</p>
+        <p class="contact-us">Contactanos</p>
         <hr class="contact-hr">
         <div class="card-container">
             <div class="contact-card">
-                <h3 class="card-title">Location</h3>
+                <h3 class="card-title">Ubicacion</h3>
                 <p class="adress">Unnamed Road</p>
                 <p class="adress">The Bronx, NY 10474</p>
             </div>
             <div class="contact-card">
-                <h3 class="card-title">Hours</h3>
-                <p class="hours">Mon-Thu, 11am-9pm</p>
-                <p class="hours">Fri-Sun, 11am-11pm</p>
+                <h3 class="card-title">Horario</h3>
+                <p class="hours">Lun-Jue, 11am-9pm</p>
+                <p class="hours">Vie-Dom, 11am-11pm</p>
             </div>
             <div class="contact-card">
-                <h3 class="card-title">Contact Us</h3>
+                <h3 class="card-title">Contactanos</h3>
                 <p class="phone">(123) 456-7890</p>
                 <p class="email">EngañosoRestaurante@fakemail.com</p>
             </div>

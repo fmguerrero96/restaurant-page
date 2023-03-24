@@ -5,9 +5,9 @@ function renderCarta() {
     carta.innerHTML = `
      <nav>
         <ul>
-            <li class="tab-home">Home</li>
+            <li class="tab-home">Inicio</li>
             <li class="tab-menu">Carta</li>
-            <li class="tab-contact">Contact</li>
+            <li class="tab-contact">Contactanos</li>
         </ul>
      </nav>
      <main class="carta-main">
