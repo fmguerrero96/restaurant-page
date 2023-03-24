@@ -103,6 +103,11 @@ time, mark, audio, video {
     background-color: rgb(177, 84, 17);
     border: none;
     color: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: black;
   }
 
   footer {
@@ -126,18 +131,21 @@ time, mark, audio, video {
     height: 70vh;
     justify-content: center;
     overflow-y: scroll;
+    background-color: white;
+    border-top: 2px solid rgb(177, 84, 17);
+    border-bottom: 2px solid rgb(177, 84, 17);
   }
 
   .carta-title{
     margin-top: 20vh;
-    color: white;
+    color: rgb(177, 84, 17);
     font-family: 'Tangerine', cursive;
     font-size: 6rem;
     font-weight: bolder;
   }
 
   .carta-menu{
-    color: white;
+    color: black;
     font-family: 'Lato', sans-serif;
     font-size: 3rem;
     font-weight: bolder;
@@ -162,31 +170,40 @@ time, mark, audio, video {
   .dish-name, .dish-price{
     font-size: 1.75rem;
     font-family: 'Lato', sans-serif;
+    color: black;
+  }
+
+  .dish-price{
+    color: rgb(177, 84, 17);
   }
 
   .dish-description{
     font-size: 1rem;
     font-weight: 100;
     text-align: center;
+    color: black;
   }
 
   .carta-hr{
     width: 280px;
-    border: 2px solid white;
+    border: 2px solid rgb(177, 84, 17);
     margin: 24px auto;
   }
 
   .dish-hr{
-    border: 1px sloid white;
+    border: 1px solid rgb(177, 84, 17);
     width: 200px;
   }
 
   .contact-main{
     height: 70vh;
+    background-color: white;
+    border-top: 2px solid rgb(177, 84, 17);
+    border-bottom: 2px solid rgb(177, 84, 17);
   }
 
   .contact-title{
-    color: white;
+    color: rgb(177, 84, 17);
     font-family: 'Tangerine', cursive;
     font-size: 6rem;
     font-weight: bolder;
@@ -194,7 +211,7 @@ time, mark, audio, video {
   }
 
   .contact-us{
-    color: white;
+    color: black;
     font-family: 'Lato', sans-serif;
     font-size: 3rem;
     font-weight: bolder;
@@ -203,7 +220,7 @@ time, mark, audio, video {
 
   .contact-hr{
     width: 280px;
-    border: 2px solid white;
+    border: 2px solid rgb(177, 84, 17);
     margin: 24px auto;
   }
 
@@ -231,10 +248,21 @@ time, mark, audio, video {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 20px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(177, 84, 17);
+    color: black;
   }
 
   .hours, .phone, .email, .adress {
     font-weight: 200;
     font-size: 1.5rem;
+    color: black;
+  }
+
+  main::-webkit-scrollbar {
+    width: 1em;
+  }
+
+  main::-webkit-scrollbar-thumb {
+    background-color: rgb(177, 84, 17);
+    outline: 1px solid white;
   }
