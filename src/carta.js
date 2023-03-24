@@ -50,8 +50,8 @@ function renderCarta() {
                 pulvinar proin. Massa sapien faucibus et molestie ac feugiat. Donec ultrices tincidunt 
                 arcu non sodales neque.
                 </p>
-                <h2 class="dish-hr">$19.50</h2>
-                <hr>
+                <h2 class="dish-price">$19.50</h2>
+                <hr class="dish-hr">
             </div>
         </div>
      </main>
