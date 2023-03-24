@@ -4,7 +4,7 @@ import contact from "./contact";
 import './style.css' 
 
 let content = document.querySelector('#content')
-content.appendChild(carta)
+content.appendChild(contact)
 
 const tabs = (() =>{
     function displayCarta(){
