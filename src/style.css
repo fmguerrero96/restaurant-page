@@ -42,17 +42,20 @@ time, mark, audio, video {
     align-content:space-between;
     align-items: center;
     height: 15vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
   }
 
   ul{
     display: flex;
-    color: white;
+    color: aliceblue;
     list-style: none;
   }
 
   li {
     margin: 0 20px;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
   .home-main {
@@ -67,6 +70,7 @@ time, mark, audio, video {
     font-family: 'Tangerine', cursive;
     font-size: 8rem;
     font-weight: bolder;
+    color: rgb(177, 84, 17);
   }
 
   .home-rest {
@@ -78,14 +82,15 @@ time, mark, audio, video {
 
   .home-hr{
     width: 280px;
-    border: 2px solid white;
+    border: 2px solid rgb(177, 84, 17);
   }
 
   .lema {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-family: 'Lato', sans-serif;
     margin-top: 5vh;
     font-weight: 200;
+    color: white;
   }
 
   .menu-btn{
@@ -95,6 +100,9 @@ time, mark, audio, video {
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     margin-top: 3vh;
+    background-color: rgb(177, 84, 17);
+    border: none;
+    color: white;
   }
 
   footer {
