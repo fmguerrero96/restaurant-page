@@ -1,1 +1,3 @@
-# restaurant-page
+This is my take on The Odin Project's restaurant page project. For this project, the main focus was to practice using webpack and modules. All the HTML was created using javascript. Each tab of the page represents a different javascript file. The index.js file imports all other files and appends their contents to the index.html file. A full description of the project can be found here https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page .
+
+The background image used in the project was created by Michelle Henderson. You can check out her work here https://unsplash.com/photos/1zyj8nOdwPs .
